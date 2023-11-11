@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+body{
+    padding-top: 20px;
+}
+header ul li .nav-link:hover{
+color: #ebc83a;
+}
+
+header .navbar-nav .nav-item  .ativo{
+    color: #f19601;
+    }
+#banner{
+    background-image: url("../img/banner2.png");
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.banner-botao{
+    background-color: #f19601;
+    border: none;
+    color: white;
+    padding: 12px;
+}
+.banner-botao:hover{
+    
+    background-color: #fcb94f;
+    border: none;
+    color: white;
+}
+.text-banner{
+    color: #fff;
+    background-color: rgba(116, 115, 115, 0.701) ;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+.noventa{
+    color: #f5c166;
+}
+
+#sobre{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#sobre p{
+    
+    font-size: 1.2em;     
+}
+
+hr{
+    
+    border: 2px solid;
+    margin: 0 auto;
+    color: #f19601;
+    width: 20%;
+}
+#servicos{
+    padding-top: 50px;
+    background-color:#e3e3e3;
+}
+
+#servicos p{
+    
+    font-size: 1.2em;     
+}
+
+#servicos .card{
+    border: none;
+    box-shadow: 10px 10px 5px grey;;      
+}
+#servicos .card:hover{
+    border: none;
+
+    box-shadow: 10px 10px 5px rgb(90, 89, 89);;      
+}
+.caixa-imagem-servicos{
+    border: 1px solid rebeccapurple;
+
+}
+
+footer a{
+    text-decoration: none;
+
+}
+#contato h5{
+    color: rgb(114, 114, 114);
+    font-size: 1em;
+    text-align: center;
+}
+.h3-cutom{
+    color: rgb(114, 114, 114);
+    font-size: 1.8em;
+    text-align: center; 
+}
+#galeria{
+    background-color:#e3e3e3;
+    padding-bottom: 40px;
+}
+#galeria .row{
+    width: 90%;
+}
+#galeria img:hover{
+    border: 3px solid gray;
+}
